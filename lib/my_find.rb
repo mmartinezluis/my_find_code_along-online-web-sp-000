@@ -7,6 +7,7 @@ def my_find(collection)
     block_return_values << yield(collection[i])
     if yield(collection[i])
       return collection[i]
+    end
     i+= 1
   end
 
