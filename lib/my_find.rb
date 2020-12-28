@@ -8,9 +8,9 @@ def my_find(collection)
     i+= 1
   end
 
-  if block_return_values.include?(false)
-  false
+  if block_return_values.include?(true)
+
   else
-  true
+    nil
   end
 end
