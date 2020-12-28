@@ -11,9 +11,9 @@ def my_find(collection)
     i+= 1
   end
 
-  if block_return_values.include?(true)
+  #if block_return_values.include?(true)
     collection[block_return_values.index(true)]
-  else
-    nil
-  end
+#  else
+#    nil
+#  end
 end
