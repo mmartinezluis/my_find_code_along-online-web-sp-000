@@ -5,6 +5,8 @@ def my_find(collection)
   block_return_values=[ ]
   while i<collection.length
     block_return_values << yield(collection[i])
+    if yield(collection[i])
+      return collection[i]
     i+= 1
   end
 
