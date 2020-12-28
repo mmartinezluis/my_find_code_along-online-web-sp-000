@@ -12,7 +12,7 @@ def my_find(collection)
   end
 
   #if block_return_values.include?(true)
-    collection[block_return_values.index(true)]
+#    collection[block_return_values.index(true)]
 #  else
 #    nil
 #  end
