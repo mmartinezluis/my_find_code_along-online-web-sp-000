@@ -13,5 +13,5 @@ def my_find(collection)
   else
     nil
   end
-  correct_element
+  return correct_element
 end
